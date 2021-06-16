@@ -1,0 +1,27 @@
+{
+  "name": "marketsniper",
+  "productName": "marketsniper",
+  "version": "0.1.0",
+  "description": "marketsniper",
+  "main": "MarketSniper.js",
+  "scripts": {
+    "start": "node MarketSniper.js"
+  },
+  "keywords": [],
+  "author": "MrTehHax",
+  "license": "MIT",
+  "directories": {
+    "buildResources": "./"
+  },
+  "dependencies": {
+    "diff": "^4.0.1",
+    "https": "^1.0.0",
+    "pm2": "^4.2.3",
+    "request": "^2.88.2",
+    "settings-store": "^1.4.1",
+    "typescript": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^11.11.3"
+  }
+}
